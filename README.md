@@ -7,5 +7,15 @@ Java Generics
 5. Inheritance/polymorphism implications
 6. Wildcards,upper bound and lower bound
 7. Working with static methods
+
+``Simple Generics Implementation``
+
+List<String> list = new ArrayList<>()
+
+``Complex Generics Implementation``
+
+static <T,U extends Comparable<? super U>>
+Comparator<T>
+
    
 
