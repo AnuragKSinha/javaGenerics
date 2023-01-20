@@ -16,7 +16,7 @@ public class Zoo {
 		 * LHS(Generic Type) RHS(Non Generic Type) and
 		 * Java Supports backward compatibility
 		 */
-		Cage<Monkey> cage2= new Cage<Monkey>(new Monkey(),new Lion());
+		//Cage<Monkey> cage2= new Cage<Monkey>(new Monkey(),new Lion());
 		/**
 		 * LHS(Generic Type) RHS(Generic Type) and
 		 * Both input Parameter should be of same
