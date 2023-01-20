@@ -5,6 +5,10 @@ public class Cage<E> {
 	private E animal2;
 
 	public Cage(){}
+	public Cage(E animal1,E animal2){
+		this.animal1=animal1;
+		this.animal1=animal2;
+	}
 
 	public E getAnimal1() {
 		return animal1;
