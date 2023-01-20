@@ -6,11 +6,11 @@ public class Inheritance {
 		List<String> names=new ArrayList<>();
 		names.add("Name1");
 		names.add("Name2");
-		printList(names);
+		//printList(names);
 		List<Integer> numbers=new ArrayList<>();
 		numbers.add(1);
 		numbers.add(2);
-		printList(numbers);
+		//printList(numbers);
 	}
 
 	private static void printList(List<Object> names) {
