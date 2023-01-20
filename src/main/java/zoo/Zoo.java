@@ -11,7 +11,5 @@ public class Zoo {
 		 * Logic in Setting to identify if already
 		 * set Animal matches the current set animal
 		 */
-		Cage<Monkey> cage2 =new Cage(new Monkey(),
-				new Monkey());
 	}
 }
