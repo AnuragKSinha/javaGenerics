@@ -21,7 +21,7 @@ Comparator<T>
 ## Type Erasure 
    [Oracle Doc for Type Erasure](https://docs.oracle.com/javase/tutorial/java/generics/erasure.html)
    
-## Class file is not bytecode
+## Class file is not exactly a bytecode
    [Look Inside Compiled Code with Java Bytecode Decompiler](https://blog.jetbrains.com/idea/2020/03/java-bytecode-decompiler/#:~:text=Open%20the%20necessary%20.,Bytecode%20Viewer%20plugin%20is%20enabled.)
 
 <img width="1440" alt="ByteCode" src="https://user-images.githubusercontent.com/26598629/213910120-24f9ac38-019b-47cd-89c1-dfddbf31265b.png">
