@@ -7,7 +7,7 @@ public class AutoBoxingWithGenerics {
 		int i = 10;
 		Integer x = i; // Autoboxing
 		Integer y = new Integer(10);
-		int j = x; // unboxing
+		int j = y; // unboxing
 		List<Integer> list = Arrays.asList(10,20,30);// Autoboxing LHS(Instance of Integer) & RHS (Primitive)
 		int first = list.get(0); // unboxing LHS(Primitive) RHS(Instance of Integer)
 
