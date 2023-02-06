@@ -1,6 +1,6 @@
 package zoo;
 
-public class Cage<E> {
+public class Cage<E extends Animal> {
 	private E animal1;
 	private E animal2;
 
@@ -24,5 +24,8 @@ public class Cage<E> {
 
 	public void setAnimal2(E animal2) {
 		this.animal2 = animal2;
+	}
+	public boolean isCompatible(){
+		return animal1.getType().equals(animal2.getType());
 	}
 }

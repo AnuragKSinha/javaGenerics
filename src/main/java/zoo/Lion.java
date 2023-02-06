@@ -1,4 +1,4 @@
 package zoo;
 
-public class Lion {
+public class Lion extends Animal{
 }
